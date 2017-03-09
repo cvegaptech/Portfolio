@@ -5,21 +5,17 @@ GENERAL
   width:90%;
   max-width:1100px;
   margin:0 auto;
-
-
 }
 
 img{
-  width:100%;
+  width:100%;}
 
+p {
+    font-family: 'Roboto', sans-serif;}
+
+.off-canvas-wrapper{
+  background-color: #669999;
 }
-
-
-.p {
-    font-family: Verdana, Helvetica, sans-serif;
-}
-
-
 
 /****************************************************************************
 NAV-MOBILE
@@ -27,21 +23,27 @@ NAV-MOBILE
 .title-bar{
     background-color: #222;
       height:45px;
-      padding-top: 17px
-
-}
-.off-canvas-wrapper{
-  background-color: #222;
+      padding-top: 17px;
 }
 
 #mobile-menu{
-  background-color: #222;
-  padding: 38px
+  background-color:white;
+  padding: 38px;
+}
+
+#mobile-menu li{
+  list-style: none;
+}
+#mobile-menu a{
+  color: rgba(02, 153, 153, 1);
+  font-weight: bold;
+  line-height:2;
 
 }
 
-
-
+.js-off-canvas-exit{
+  background: rgba(0,0,0 0.5)
+}
 
 /************************************************************************
 NAV-DESKTOP
@@ -84,7 +86,7 @@ HERO
 .hero{
   background-color:#999;
   padding:80px 0px ;
-  height:400px;
+  height:350px;
 background-color: #669999;
   /*background-image:url("../img/pattern.png");*/
 
@@ -122,6 +124,13 @@ MAIN SECTION
   padding:60px 0 30px 0px ;
   background-color:#669999;
 }
+
+
+div.picture{
+ margin: 0 auto;
+}
+
+
 
 /***********************************************************************
 FOOTER
