@@ -64,6 +64,7 @@ NAV-DESKTOP
 }
 .nav-desktop a{
   color:white;
+  font-family: 'verdana';
 }
 .menu > li > a{
 display: inline-block;
